@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Конвертер валют</title>
+    <style>
+          body {
+         background-size: 170%;
+         text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ fr }} в {{ to }}</h1>
+    <h1>{{ result }}</h1>
+    <form action="/api/convert" method="POST">
+        <a href="/">Назад</a>
+    </form>
+    <br>
+    <div id="result"></div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+         background-size: 170%;
+         text-align: center;
+        }
+    </style>
+    <title>Конвертер валют</title>
+</head>
+<body>
+    <h1>Конвертер валют</h1>
+    <form action="/api/convert" method="POST">
+        <label for="from">Из:</label>
+        <input type="text" name="from" id="from">
+        <label for="to">В:</label>
+        <input type="text" name="to" id="to">
+        <label for="amount">Количество:</label>
+        <input type="number" name="amount" id="amount">
+        <input type="submit" value="Convert">
+    </form>
+    <br>
+    <div id="result"></div>
+</body>
+</html>

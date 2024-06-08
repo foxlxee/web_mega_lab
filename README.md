@@ -1,1 +1,4 @@
-# web_mega_lab
+Конвертер валют
+Для запуска нужно установить необходимые библиотеки Python: requests, fastapi, Flask.
+Запустить файл main.py
+Перейти по ссылке "Running on:"
